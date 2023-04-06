@@ -1,0 +1,33 @@
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+
+.todo-item__input {
+  margin-right: 12px;
+}
+
+.completed label {
+  text-decoration: line-through;
+}
+
+.completed input {
+  cursor: default;
+}
+
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #cc0000;
+}
